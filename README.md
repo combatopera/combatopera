@@ -4,4 +4,4 @@
 
 ## No
 * [Opinionated frameworks](https://helm.sh/docs/chart_best_practices/)
-* [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
