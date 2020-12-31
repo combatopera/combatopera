@@ -3,5 +3,5 @@
 * [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
 
 ## No
-* Opinionated software
+* [Opinionated frameworks](https://helm.sh/docs/chart_best_practices/)
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/)
