@@ -13,12 +13,15 @@ def main_update():
     ctrl = ConfigCtrl()
     ctrl.loadsettings()
     config = ctrl.node
-    with urlopen(f"https://api.github.com/users/{config.organization}/repos") as f:
-        names = [p['name'] for p in json.load(f)]
     projects = Path(config.projectsdir)
+    org = config.organization
+    with urlopen(f"https://api.github.com/users/{org}/repos") as f:
+        names = [p['name'] for p in json.load(f)]
     dot = Digraph(format = 'png')
     dot.graph_attr['rankdir'] = 'LR'
     for name in names:
+        if org == name:
+            continue
         path = projects / name
         if not path.exists():
             log.warning("Skip: %s", name)
