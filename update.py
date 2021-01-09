@@ -17,6 +17,7 @@ def main_update():
         names = [p['name'] for p in json.load(f)]
     projects = Path(config.projectsdir)
     dot = Digraph(format = 'png')
+    dot.graph_attr['rankdir'] = 'LR'
     for name in names:
         path = projects / name
         if not path.exists():
