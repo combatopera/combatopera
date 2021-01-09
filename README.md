@@ -7,3 +7,6 @@ Hi I'm Andrzej, the programmer and impresario. My background is Java/Kotlin but 
 ## No
 * Unlike [opinionated frameworks](https://helm.sh/docs/chart_best_practices/) we let you choose your own workflow
 * We don't waste anyone's time with cosmetic concerns such as [PEP 8](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
+
+## Projects
+![Project dependencies](dependencies.png)
