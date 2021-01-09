@@ -1,0 +1,7 @@
+name = combatopera
+proprietary = true
+pyversions += 3
+requires +=
+    aridity>=35
+    graphviz>=0.16
+    pyven>=56
