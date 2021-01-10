@@ -7,6 +7,7 @@ from urllib.request import urlopen
 import json, logging, shutil
 
 log = logging.getLogger(__name__)
+format = 'svg'
 
 def main_update():
     logging.basicConfig(level = logging.DEBUG)
@@ -17,8 +18,7 @@ def main_update():
     org = config.organization
     with urlopen(f"https://api.github.com/users/{org}/repos") as f:
         names = [p['name'] for p in json.load(f)]
-    dot = Digraph(format = 'png')
-    dot.graph_attr['rankdir'] = 'LR'
+    dot = Digraph(format = format)
     for name in names:
         if org == name:
             continue
@@ -33,5 +33,5 @@ def main_update():
     with TemporaryDirectory() as tempdir:
         path = Path(tempdir, 'dependencies')
         dot.render(path)
-        path = path.with_name(f"{path.name}.png")
+        path = path.with_name(f"{path.name}.{format}")
         shutil.copy2(path, Path(__file__).parent / path.name)
