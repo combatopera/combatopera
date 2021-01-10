@@ -1,4 +1,4 @@
-Hi I'm Andrzej, the programmer and impresario. My background is Java/Kotlin but these days I do everything in Python, much more productive, much less hassle. I'm particularly interested in delivering focused interoperable tools to minimise rigmarole for both developers and users, and enforcement of their functionality via automated testing.
+Hi I'm Andrzej, the impresario and programmer. My background is Java/Kotlin but these days I do everything in Python, much more productive, much less hassle. I'm particularly interested in delivering focused interoperable tools to minimise rigmarole for both developers and users, and enforcement of their functionality via automated testing.
 
 ## Yes
 * We deliver value at pace via [Defect Driven Design](https://web.archive.org/web/20151103111048/https://weblogs.java.net/blog/kcpeppe/archive/2011/11/29/defect-driven-design-makes-comeback)
