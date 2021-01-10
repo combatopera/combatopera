@@ -1,5 +1,6 @@
 name = combatopera
 proprietary = true
+pypi participant = false
 pyversions += 3
 requires +=
     aridity>=35
