@@ -1,3 +1,4 @@
+# Andrzej stack
 Hi I'm Andrzej, the impresario and programmer. My background is Java/Kotlin but these days I do everything in Python, much more productive, much less hassle. I'm particularly interested in delivering focused interoperable tools to minimise rigmarole for both developers and users, and enforcement of their functionality via automated testing.
 
 ## Yes
