@@ -10,4 +10,4 @@ Hi I'm Andrzej, the impresario and programmer. My background is Java/Kotlin but 
 * We don't waste anyone's time with cosmetic concerns such as [PEP 8](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
 
 ## Maintained projects dependency graph
-![Project dependencies](dependencies.svg)
+![Project dependenciez](dependencies.svg)
