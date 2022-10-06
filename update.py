@@ -35,3 +35,6 @@ def main_update():
         dot.render(path)
         path = path.with_name(f"{path.name}.{format}")
         shutil.copy2(path, Path(__file__).parent / path.name)
+
+if '__main__' == __name__:
+    main_update()

@@ -6,3 +6,4 @@ requires +=
     aridity>=35
     graphviz>=0.16
     pyven>=56
+executable = true
