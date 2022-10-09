@@ -1,7 +1,7 @@
 from unittest import TestCase
-import update
+import update_dependency_graph
 
 class TestNull(TestCase):
 
     def test_null(self):
-        assert update
+        assert update_dependency_graph
