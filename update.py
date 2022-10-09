@@ -9,7 +9,7 @@ import json, logging, shutil
 log = logging.getLogger(__name__)
 format = 'svg'
 
-def main_update():
+def main():
     logging.basicConfig(level = logging.DEBUG)
     ctrl = ConfigCtrl()
     ctrl.loadsettings()
@@ -37,4 +37,4 @@ def main_update():
         shutil.copy2(path, Path(__file__).parent / path.name)
 
 if '__main__' == __name__:
-    main_update()
+    main()
